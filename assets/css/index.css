@@ -1,0 +1,15 @@
+.main-img-container {
+    text-align: center;
+}
+
+.main-img {
+    width: 60%;
+}
+
+a.country {
+    cursor: inherit;
+}
+
+a.country img {
+    width: 30px;
+}
