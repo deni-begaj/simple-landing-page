@@ -1,0 +1,19 @@
+{
+  "name": "labgom-server",
+  "version": "1.0.0",
+  "description": "Labgom",
+  "homepage": "",
+  "author": {
+    "name": "Deni Begaj"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "nodemon": "^1.14.12"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "forever": "pm2 start ./app.js"
+  }
+}
